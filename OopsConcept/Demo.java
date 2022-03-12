@@ -8,6 +8,9 @@ class Subject{
 	public int maxMarks;
 	public int marksObtain;
 	
+	
+	
+	//Class Constructor:-
 	public Subject(String subId, String name,int maxMarks) {
 		this.subId=subId;
 		this.name=name;
@@ -63,6 +66,7 @@ public class Demo {
 		subs[1]= new Subject ("s102","Maths",99);
 		subs[2]= new Subject ("s103","Chemistry",98);
 	
+		//Enhanced Forloop
 		for(Subject s:subs) {
 			System.out.println(s);
 		}
